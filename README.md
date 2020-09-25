@@ -21,12 +21,13 @@ Object-relational mappings usually leave this decision to developers so that the
 
 #### Room Migrations
 
-Increase the version Number
+Increase the version Number:  
+
 @Database(entities = {User.class}, version = versionNumber)
 public abstract class UsersDatabase extends RoomDatabase
 
 
-Add a Migration from version one to version other
+Add a Migration from version one to version other:
 
 static final Migration MIGRATION_2_3 = new Migration(2, 3) {
     @Override
