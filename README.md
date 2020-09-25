@@ -10,7 +10,7 @@ Easier: Since it has less code and causes fewer errors, it’s easier to test an
 
 ### Room
 
-## Understand why Room doesn't allow object references:
+#### Understand why Room doesn't allow object references:
 
 Mapping relationships from a database to the respective object model is a common practice and works very well on the server side. Even when the program loads fields as they're accessed, the server still performs well.
 
